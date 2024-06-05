@@ -9,4 +9,8 @@ export class AppController {
   getHello(): string {
     return this.appService.getHello();
   }
+  @Get('/hasib')
+  getName(): string {
+    return this.appService.getName();
+  }
 }
